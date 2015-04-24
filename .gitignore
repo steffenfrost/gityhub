@@ -12,10 +12,27 @@ build/
 xcuserdata
 *.xccheckout
 *.moved-aside
-DerivedData
+
+####
+# Xcode build files -
+#
+# NB: slash on the end, so we only remove the FOLDER, 
+# not any files that were badly named "DerivedData"
+DerivedData/
+
 *.hmap
 *.ipa
 *.xcuserstate
+
+#####
+# OS X temporary files that should never be committed
+#
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+.DS_Store
+
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+.Trashes
+
 
 # CocoaPods
 #
@@ -23,4 +40,6 @@ DerivedData
 # you should judge for yourself, the pros and cons are mentioned at:
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
-#Pods/
+# Pods/
+#
+# However, we DO submit the "Podfile" file because it has all the relevant info to pull the dependencies
