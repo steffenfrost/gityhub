@@ -12,9 +12,13 @@
 
 #define kGityHubImageQue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
-
+#if USE_UICollectionView_PLUS_NSFetchedResultsController
+@interface EventsCollectionViewController () <CollectionViewDataFetcherDelegateV2>
+@property (nonatomic, strong) CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC *collectionViewDataManager;
+#else
 @interface EventsCollectionViewController () <CollectionViewDataFetcherDelegate>
 @property (nonatomic, strong) CollectionViewDataFetcher *collectionViewDataManager;
+#endif
 
 @property (nonatomic, strong) GitWebServices  *webservice;
 @property (nonatomic, strong) Importer        *importer;

@@ -112,6 +112,7 @@
 		C0731A281AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+NSFetchedResultsController.m"; path = "Controllers/UICollectionView+NSFetchedResultsController.m"; sourceTree = "<group>"; };
 		C0731A2B1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h; path = Controllers/CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h; sourceTree = "<group>"; };
 		C0731A2C1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m; path = Controllers/CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m; sourceTree = "<group>"; };
+		C0731A2E1AFBFB5F00213B9E /* GTHCommonFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTHCommonFile.h; path = Utilities/GTHCommonFile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +197,7 @@
 		C07319C31AFBD7C600213B9E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C0731A2E1AFBFB5F00213B9E /* GTHCommonFile.h */,
 				C07319C71AFBD84C00213B9E /* GTRUtility.h */,
 				C07319C81AFBD84D00213B9E /* GTRUtility.m */,
 			);
@@ -224,7 +226,6 @@
 				C07319CF1AFBD86100213B9E /* Fork.m */,
 				C07319D01AFBD86100213B9E /* Fork+Persist.h */,
 				C07319D11AFBD86100213B9E /* Fork+Persist.m */,
-				C07319D21AFBD86100213B9E /* GityHub.xcdatamodeld */,
 				C07319D41AFBD86100213B9E /* NSManagedObject+Helpers.h */,
 				C07319D51AFBD86100213B9E /* NSManagedObject+Helpers.m */,
 				C07319D61AFBD86100213B9E /* Repo.h */,
@@ -237,6 +238,7 @@
 				C07319DD1AFBD86100213B9E /* Watch.m */,
 				C07319DE1AFBD86100213B9E /* Watch+Persist.h */,
 				C07319DF1AFBD86100213B9E /* Watch+Persist.m */,
+				C07319D21AFBD86100213B9E /* GityHub.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -650,6 +652,7 @@
 				C07319BF1AFBD65200213B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07319C01AFBD65200213B9E /* Build configuration list for PBXNativeTarget "GityHubTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +661,7 @@
 				C07319C21AFBD65200213B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
