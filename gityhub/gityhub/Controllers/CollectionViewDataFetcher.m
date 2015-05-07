@@ -111,9 +111,9 @@
 
 
 #pragma mark NSFetchedResultsControllerDelegate
-
 // http://jose-ibanez.tumblr.com/post/38494557094/uicollectionviews-and-nsfetchedresultscontrollers
-// https://github.com/ashfurrow/UICollectionView-NSFetchedResultsController/blob/master/AFMasterViewController.m
+// https://github.com/ashfurrow/UICollectionView-NSFetchedResultsController
+
 - (void)controllerWillChangeContent:(NSFetchedResultsController *)controller {
     NSLog(@"controllerWillChangeContent: %@", controller);
     self.objectChanges  = [NSMutableDictionary dictionary];

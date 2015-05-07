@@ -38,6 +38,8 @@
 		C0731A161AFBE34900213B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0731A0D1AFBE34900213B9E /* Main.storyboard */; };
 		C0731A171AFBE34900213B9E /* RepoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0731A0F1AFBE34900213B9E /* RepoDetailViewController.xib */; };
 		C0731A181AFBE34900213B9E /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0731A111AFBE34900213B9E /* UserCollectionViewCell.xib */; };
+		C0731A2A1AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0731A281AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.m */; };
+		C0731A2D1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0731A2C1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,10 @@
 		C0731A0E1AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0731A101AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/RepoDetailViewController.xib; sourceTree = "<group>"; };
 		C0731A121AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		C0731A271AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+NSFetchedResultsController.h"; path = "Controllers/UICollectionView+NSFetchedResultsController.h"; sourceTree = "<group>"; };
+		C0731A281AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+NSFetchedResultsController.m"; path = "Controllers/UICollectionView+NSFetchedResultsController.m"; sourceTree = "<group>"; };
+		C0731A2B1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h; path = Controllers/CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h; sourceTree = "<group>"; };
+		C0731A2C1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m; path = Controllers/CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,16 +244,14 @@
 		C07319C61AFBD83200213B9E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C0731A241AFBEEEA00213B9E /* Alt CollectionViewDataFetcher */,
+				C0731A231AFBEED400213B9E /* Web Services */,
 				C07319F11AFBD88B00213B9E /* CollectionViewDataFetcher.h */,
 				C07319F21AFBD88B00213B9E /* CollectionViewDataFetcher.m */,
-				C07319F31AFBD88B00213B9E /* EventsCollectionViewController.h */,
-				C07319F41AFBD88B00213B9E /* EventsCollectionViewController.m */,
-				C07319F51AFBD88B00213B9E /* GitWebServices.h */,
-				C07319F61AFBD88B00213B9E /* GitWebServices.m */,
-				C07319F71AFBD88B00213B9E /* Importer.h */,
-				C07319F81AFBD88B00213B9E /* Importer.m */,
 				C07319F91AFBD88B00213B9E /* RepoDetailViewController.h */,
 				C07319FA1AFBD88B00213B9E /* RepoDetailViewController.m */,
+				C07319F31AFBD88B00213B9E /* EventsCollectionViewController.h */,
+				C07319F41AFBD88B00213B9E /* EventsCollectionViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -265,6 +269,28 @@
 				C0731A031AFBDAB000213B9E /* octicons.ttf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0731A231AFBEED400213B9E /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				C07319F51AFBD88B00213B9E /* GitWebServices.h */,
+				C07319F61AFBD88B00213B9E /* GitWebServices.m */,
+				C07319F71AFBD88B00213B9E /* Importer.h */,
+				C07319F81AFBD88B00213B9E /* Importer.m */,
+			);
+			name = "Web Services";
+			sourceTree = "<group>";
+		};
+		C0731A241AFBEEEA00213B9E /* Alt CollectionViewDataFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				C0731A2B1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h */,
+				C0731A2C1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m */,
+				C0731A271AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.h */,
+				C0731A281AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.m */,
+			);
+			name = "Alt CollectionViewDataFetcher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +407,7 @@
 				C07319F01AFBD87200213B9E /* UserCollectionViewCell.m in Sources */,
 				C07319EA1AFBD86100213B9E /* Watch+Persist.m in Sources */,
 				C07319A01AFBD65200213B9E /* AppDelegate.m in Sources */,
+				C0731A2D1AFBF07A00213B9E /* CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.m in Sources */,
 				C07319FF1AFBD88B00213B9E /* RepoDetailViewController.m in Sources */,
 				C07319E21AFBD86100213B9E /* Fork.m in Sources */,
 				C07319FD1AFBD88B00213B9E /* GitWebServices.m in Sources */,
@@ -389,6 +416,7 @@
 				C07319E71AFBD86100213B9E /* Repo+Persist.m in Sources */,
 				C07319A61AFBD65200213B9E /* ViewController.m in Sources */,
 				C073199D1AFBD65200213B9E /* main.m in Sources */,
+				C0731A2A1AFBEF1100213B9E /* UICollectionView+NSFetchedResultsController.m in Sources */,
 				C07319E91AFBD86100213B9E /* Watch.m in Sources */,
 				C07319FC1AFBD88B00213B9E /* EventsCollectionViewController.m in Sources */,
 				C07319EF1AFBD87200213B9E /* EventCollectionViewCell.m in Sources */,

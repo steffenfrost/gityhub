@@ -1,7 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "Event.h"
 
-@class CollectionViewDataFetcher;
 
 @interface RepoDetailViewController : UIViewController 
 

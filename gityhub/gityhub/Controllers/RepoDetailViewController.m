@@ -1,6 +1,8 @@
 #import "RepoDetailViewController.h"
 
 #import "CollectionViewDataFetcher.h"
+#import "CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC.h"
+
 #import "Importer.h"
 #import "GitWebServices.h"
 
@@ -16,8 +18,19 @@
 
 #define kGityHubImageQue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
+// If you use Aleksandar Vacić's library
+// https://github.com/radianttap/UICollectionView-NSFetchedResultsController
+#define USE_UICollectionView_PLUS_NSFetchedResultsController 1
 
+#define CoreDataWay 0
+#define TEST_WITH_EVENTS_FROM_ANOTHER_REPO 0
+#define TEST_TURN_OFF_WEB_CALL_FOR_REPO_USE_DUMMY 0
+
+#if USE_UICollectionView_PLUS_NSFetchedResultsController
+@interface RepoDetailViewController () <CollectionViewDataFetcherDelegateV2>
+#else
 @interface RepoDetailViewController () <CollectionViewDataFetcherDelegate>
+#endif
 
 @property (nonatomic, weak) IBOutlet UILabel *repoNameLabel;
 @property (nonatomic, weak) IBOutlet UILabel *codingLanguageLabel;
@@ -25,16 +38,18 @@
 @property (nonatomic, weak) IBOutlet UILabel *numberOfActionsLabel;
 @property (atomic   , weak) IBOutlet UICollectionView *collectionView;
 
+#if USE_UICollectionView_PLUS_NSFetchedResultsController
+@property (atomic,    strong) CollectionViewDataFetcher_usedWith_UICV_plus_NSFRC *collectionViewDataManager;
+#else
 @property (atomic   , strong) CollectionViewDataFetcher *collectionViewDataManager;
+#endif
+
 @property (nonatomic, strong) GitWebServices            *webservice;
 @property (nonatomic, strong) Importer                  *importer;
 
 @property (nonatomic, strong) NSString                  *entityName;
 @end
 
-#define CoreDataWay 0
-#define TEST_WITH_EVENTS_FROM_ANOTHER_REPO 0
-#define TEST_TURN_OFF_WEB_CALL_FOR_REPO_USE_DUMMY 1
 
 
 @implementation RepoDetailViewController 
