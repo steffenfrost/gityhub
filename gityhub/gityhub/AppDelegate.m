@@ -7,8 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "GitWebServices.h"
+#import "Importer.h"
+#import "EventsCollectionViewController.h"
+
 
 @interface AppDelegate ()
+
+//@property (nonatomic, strong) GitWebServices  *webservice;
+//@property (nonatomic, strong) Importer        *importer;
+
+@property (nonatomic, strong) NSManagedObjectModel                 *managedObjectModel;
+@property (nonatomic, strong) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (nonatomic, strong) NSManagedObjectContext             *managedObjectContext;
+@property (nonatomic, strong) NSManagedObjectContext   *backgroundManagedObjectContext;
 
 @end
 
@@ -17,6 +29,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    EventsCollectionViewController *eventsViewController = [[EventsCollectionViewController alloc] initWithNibName:@"EventsCollectionViewController" bundle:nil];
+    eventsViewController.managedObjectContext = self.managedObjectContext;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:eventsViewController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -104,10 +122,28 @@
     if (!coordinator) {
         return nil;
     }
-    _managedObjectContext = [[NSManagedObjectContext alloc] init];
+//  _managedObjectContext = [[NSManagedObjectContext alloc] init];
+    _managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
     [_managedObjectContext setPersistentStoreCoordinator:coordinator];
     return _managedObjectContext;
 }
+
+- (NSManagedObjectContext *)backgroundManagedObjectContext {
+    // Returns the managed object context for the application (which is already bound to the persistent store coordinator for the application.)
+    if (_backgroundManagedObjectContext != nil) {
+        return _backgroundManagedObjectContext;
+    }
+    
+    NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+    if (!coordinator) {
+        return nil;
+    }
+    //  _managedObjectContext = [[NSManagedObjectContext alloc] init];
+    _backgroundManagedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSPrivateQueueConcurrencyType];
+    [_backgroundManagedObjectContext setPersistentStoreCoordinator:coordinator];
+    return _backgroundManagedObjectContext;
+}
+
 
 #pragma mark - Core Data Saving support
 

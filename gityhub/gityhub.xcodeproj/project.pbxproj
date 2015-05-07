@@ -30,9 +30,14 @@
 		C07319FD1AFBD88B00213B9E /* GitWebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319F61AFBD88B00213B9E /* GitWebServices.m */; };
 		C07319FE1AFBD88B00213B9E /* Importer.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319F81AFBD88B00213B9E /* Importer.m */; };
 		C07319FF1AFBD88B00213B9E /* RepoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319FA1AFBD88B00213B9E /* RepoDetailViewController.m */; };
-		C0731A041AFBDAB000213B9E /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C0731A011AFBDAB000213B9E /* Base.lproj */; };
 		C0731A051AFBDAB000213B9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0731A021AFBDAB000213B9E /* Images.xcassets */; };
 		C0731A061AFBDAB000213B9E /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0731A031AFBDAB000213B9E /* octicons.ttf */; };
+		C0731A131AFBE34900213B9E /* EventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0731A071AFBE34900213B9E /* EventCollectionViewCell.xib */; };
+		C0731A141AFBE34900213B9E /* EventsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0731A091AFBE34900213B9E /* EventsCollectionViewController.xib */; };
+		C0731A151AFBE34900213B9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0731A0B1AFBE34900213B9E /* LaunchScreen.xib */; };
+		C0731A161AFBE34900213B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0731A0D1AFBE34900213B9E /* Main.storyboard */; };
+		C0731A171AFBE34900213B9E /* RepoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0731A0F1AFBE34900213B9E /* RepoDetailViewController.xib */; };
+		C0731A181AFBE34900213B9E /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0731A111AFBE34900213B9E /* UserCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,9 +98,14 @@
 		C07319F81AFBD88B00213B9E /* Importer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Importer.m; path = Controllers/Importer.m; sourceTree = "<group>"; };
 		C07319F91AFBD88B00213B9E /* RepoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepoDetailViewController.h; path = Controllers/RepoDetailViewController.h; sourceTree = "<group>"; };
 		C07319FA1AFBD88B00213B9E /* RepoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepoDetailViewController.m; path = Controllers/RepoDetailViewController.m; sourceTree = "<group>"; };
-		C0731A011AFBDAB000213B9E /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Resources/Base.lproj; sourceTree = "<group>"; };
 		C0731A021AFBDAB000213B9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
 		C0731A031AFBDAB000213B9E /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = octicons.ttf; path = Resources/octicons.ttf; sourceTree = "<group>"; };
+		C0731A081AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/EventCollectionViewCell.xib; sourceTree = "<group>"; };
+		C0731A0A1AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/EventsCollectionViewController.xib; sourceTree = "<group>"; };
+		C0731A0C1AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0731A0E1AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0731A101AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/RepoDetailViewController.xib; sourceTree = "<group>"; };
+		C0731A121AFBE34900213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/UserCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +255,12 @@
 		C0731A001AFBDA9400213B9E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C0731A011AFBDAB000213B9E /* Base.lproj */,
+				C0731A071AFBE34900213B9E /* EventCollectionViewCell.xib */,
+				C0731A091AFBE34900213B9E /* EventsCollectionViewController.xib */,
+				C0731A0B1AFBE34900213B9E /* LaunchScreen.xib */,
+				C0731A0D1AFBE34900213B9E /* Main.storyboard */,
+				C0731A0F1AFBE34900213B9E /* RepoDetailViewController.xib */,
+				C0731A111AFBE34900213B9E /* UserCollectionViewCell.xib */,
 				C0731A021AFBDAB000213B9E /* Images.xcassets */,
 				C0731A031AFBDAB000213B9E /* octicons.ttf */,
 			);
@@ -332,9 +347,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0731A041AFBDAB000213B9E /* Base.lproj in Resources */,
+				C0731A151AFBE34900213B9E /* LaunchScreen.xib in Resources */,
+				C0731A181AFBE34900213B9E /* UserCollectionViewCell.xib in Resources */,
 				C0731A061AFBDAB000213B9E /* octicons.ttf in Resources */,
 				C0731A051AFBDAB000213B9E /* Images.xcassets in Resources */,
+				C0731A171AFBE34900213B9E /* RepoDetailViewController.xib in Resources */,
+				C0731A161AFBE34900213B9E /* Main.storyboard in Resources */,
+				C0731A131AFBE34900213B9E /* EventCollectionViewCell.xib in Resources */,
+				C0731A141AFBE34900213B9E /* EventsCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +414,57 @@
 			targetProxy = C07319B41AFBD65200213B9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0731A071AFBE34900213B9E /* EventCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0731A081AFBE34900213B9E /* Base */,
+			);
+			name = EventCollectionViewCell.xib;
+			sourceTree = "<group>";
+		};
+		C0731A091AFBE34900213B9E /* EventsCollectionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0731A0A1AFBE34900213B9E /* Base */,
+			);
+			name = EventsCollectionViewController.xib;
+			sourceTree = "<group>";
+		};
+		C0731A0B1AFBE34900213B9E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0731A0C1AFBE34900213B9E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C0731A0D1AFBE34900213B9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0731A0E1AFBE34900213B9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0731A0F1AFBE34900213B9E /* RepoDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0731A101AFBE34900213B9E /* Base */,
+			);
+			name = RepoDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		C0731A111AFBE34900213B9E /* UserCollectionViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0731A121AFBE34900213B9E /* Base */,
+			);
+			name = UserCollectionViewCell.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C07319BB1AFBD65200213B9E /* Debug */ = {
