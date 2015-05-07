@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		C073199D1AFBD65200213B9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C073199C1AFBD65200213B9E /* main.m */; };
 		C07319A01AFBD65200213B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C073199F1AFBD65200213B9E /* AppDelegate.m */; };
-		C07319A31AFBD65200213B9E /* GityHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C07319A11AFBD65200213B9E /* GityHub.xcdatamodeld */; };
 		C07319A61AFBD65200213B9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319A51AFBD65200213B9E /* ViewController.m */; };
 		C07319A91AFBD65200213B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07319A71AFBD65200213B9E /* Main.storyboard */; };
 		C07319AB1AFBD65200213B9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07319AA1AFBD65200213B9E /* Images.xcassets */; };
 		C07319AE1AFBD65200213B9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07319AC1AFBD65200213B9E /* LaunchScreen.xib */; };
 		C07319BA1AFBD65200213B9E /* GityHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319B91AFBD65200213B9E /* GityHubTests.m */; };
+		C07319C91AFBD84D00213B9E /* GTRUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319C81AFBD84D00213B9E /* GTRUtility.m */; };
+		C07319E01AFBD86100213B9E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319CB1AFBD86100213B9E /* Event.m */; };
+		C07319E11AFBD86100213B9E /* Event+Persist.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319CD1AFBD86100213B9E /* Event+Persist.m */; };
+		C07319E21AFBD86100213B9E /* Fork.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319CF1AFBD86100213B9E /* Fork.m */; };
+		C07319E31AFBD86100213B9E /* Fork+Persist.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319D11AFBD86100213B9E /* Fork+Persist.m */; };
+		C07319E41AFBD86100213B9E /* GityHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C07319D21AFBD86100213B9E /* GityHub.xcdatamodeld */; };
+		C07319E51AFBD86100213B9E /* NSManagedObject+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319D51AFBD86100213B9E /* NSManagedObject+Helpers.m */; };
+		C07319E61AFBD86100213B9E /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319D71AFBD86100213B9E /* Repo.m */; };
+		C07319E71AFBD86100213B9E /* Repo+Persist.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319D91AFBD86100213B9E /* Repo+Persist.m */; };
+		C07319E81AFBD86100213B9E /* RepoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319DB1AFBD86100213B9E /* RepoObject.m */; };
+		C07319E91AFBD86100213B9E /* Watch.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319DD1AFBD86100213B9E /* Watch.m */; };
+		C07319EA1AFBD86100213B9E /* Watch+Persist.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319DF1AFBD86100213B9E /* Watch+Persist.m */; };
+		C07319EF1AFBD87200213B9E /* EventCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319EC1AFBD87200213B9E /* EventCollectionViewCell.m */; };
+		C07319F01AFBD87200213B9E /* UserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319EE1AFBD87200213B9E /* UserCollectionViewCell.m */; };
+		C07319FB1AFBD88B00213B9E /* CollectionViewDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319F21AFBD88B00213B9E /* CollectionViewDataFetcher.m */; };
+		C07319FC1AFBD88B00213B9E /* EventsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319F41AFBD88B00213B9E /* EventsCollectionViewController.m */; };
+		C07319FD1AFBD88B00213B9E /* GitWebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319F61AFBD88B00213B9E /* GitWebServices.m */; };
+		C07319FE1AFBD88B00213B9E /* Importer.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319F81AFBD88B00213B9E /* Importer.m */; };
+		C07319FF1AFBD88B00213B9E /* RepoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319FA1AFBD88B00213B9E /* RepoDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +51,6 @@
 		C073199C1AFBD65200213B9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C073199E1AFBD65200213B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C073199F1AFBD65200213B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C07319A21AFBD65200213B9E /* GityHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GityHub.xcdatamodel; sourceTree = "<group>"; };
 		C07319A41AFBD65200213B9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C07319A51AFBD65200213B9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C07319A81AFBD65200213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +59,43 @@
 		C07319B31AFBD65200213B9E /* GityHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GityHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07319B81AFBD65200213B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07319B91AFBD65200213B9E /* GityHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GityHubTests.m; sourceTree = "<group>"; };
+		C07319C71AFBD84C00213B9E /* GTRUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTRUtility.h; path = Utilities/GTRUtility.h; sourceTree = "<group>"; };
+		C07319C81AFBD84D00213B9E /* GTRUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTRUtility.m; path = Utilities/GTRUtility.m; sourceTree = "<group>"; };
+		C07319CA1AFBD86100213B9E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Models/Event.h; sourceTree = "<group>"; };
+		C07319CB1AFBD86100213B9E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Models/Event.m; sourceTree = "<group>"; };
+		C07319CC1AFBD86100213B9E /* Event+Persist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Event+Persist.h"; path = "Models/Event+Persist.h"; sourceTree = "<group>"; };
+		C07319CD1AFBD86100213B9E /* Event+Persist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Event+Persist.m"; path = "Models/Event+Persist.m"; sourceTree = "<group>"; };
+		C07319CE1AFBD86100213B9E /* Fork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fork.h; path = Models/Fork.h; sourceTree = "<group>"; };
+		C07319CF1AFBD86100213B9E /* Fork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fork.m; path = Models/Fork.m; sourceTree = "<group>"; };
+		C07319D01AFBD86100213B9E /* Fork+Persist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Fork+Persist.h"; path = "Models/Fork+Persist.h"; sourceTree = "<group>"; };
+		C07319D11AFBD86100213B9E /* Fork+Persist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Fork+Persist.m"; path = "Models/Fork+Persist.m"; sourceTree = "<group>"; };
+		C07319D31AFBD86100213B9E /* Git_TaskRabbit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Git_TaskRabbit.xcdatamodel; sourceTree = "<group>"; };
+		C07319D41AFBD86100213B9E /* NSManagedObject+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Helpers.h"; path = "Models/NSManagedObject+Helpers.h"; sourceTree = "<group>"; };
+		C07319D51AFBD86100213B9E /* NSManagedObject+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Helpers.m"; path = "Models/NSManagedObject+Helpers.m"; sourceTree = "<group>"; };
+		C07319D61AFBD86100213B9E /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Repo.h; path = Models/Repo.h; sourceTree = "<group>"; };
+		C07319D71AFBD86100213B9E /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Repo.m; path = Models/Repo.m; sourceTree = "<group>"; };
+		C07319D81AFBD86100213B9E /* Repo+Persist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Repo+Persist.h"; path = "Models/Repo+Persist.h"; sourceTree = "<group>"; };
+		C07319D91AFBD86100213B9E /* Repo+Persist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Repo+Persist.m"; path = "Models/Repo+Persist.m"; sourceTree = "<group>"; };
+		C07319DA1AFBD86100213B9E /* RepoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepoObject.h; path = Models/RepoObject.h; sourceTree = "<group>"; };
+		C07319DB1AFBD86100213B9E /* RepoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepoObject.m; path = Models/RepoObject.m; sourceTree = "<group>"; };
+		C07319DC1AFBD86100213B9E /* Watch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Watch.h; path = Models/Watch.h; sourceTree = "<group>"; };
+		C07319DD1AFBD86100213B9E /* Watch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Watch.m; path = Models/Watch.m; sourceTree = "<group>"; };
+		C07319DE1AFBD86100213B9E /* Watch+Persist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Watch+Persist.h"; path = "Models/Watch+Persist.h"; sourceTree = "<group>"; };
+		C07319DF1AFBD86100213B9E /* Watch+Persist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Watch+Persist.m"; path = "Models/Watch+Persist.m"; sourceTree = "<group>"; };
+		C07319EB1AFBD87200213B9E /* EventCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventCollectionViewCell.h; path = Views/EventCollectionViewCell.h; sourceTree = "<group>"; };
+		C07319EC1AFBD87200213B9E /* EventCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventCollectionViewCell.m; path = Views/EventCollectionViewCell.m; sourceTree = "<group>"; };
+		C07319ED1AFBD87200213B9E /* UserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCollectionViewCell.h; path = Views/UserCollectionViewCell.h; sourceTree = "<group>"; };
+		C07319EE1AFBD87200213B9E /* UserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCollectionViewCell.m; path = Views/UserCollectionViewCell.m; sourceTree = "<group>"; };
+		C07319F11AFBD88B00213B9E /* CollectionViewDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewDataFetcher.h; path = Controllers/CollectionViewDataFetcher.h; sourceTree = "<group>"; };
+		C07319F21AFBD88B00213B9E /* CollectionViewDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewDataFetcher.m; path = Controllers/CollectionViewDataFetcher.m; sourceTree = "<group>"; };
+		C07319F31AFBD88B00213B9E /* EventsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsCollectionViewController.h; path = Controllers/EventsCollectionViewController.h; sourceTree = "<group>"; };
+		C07319F41AFBD88B00213B9E /* EventsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsCollectionViewController.m; path = Controllers/EventsCollectionViewController.m; sourceTree = "<group>"; };
+		C07319F51AFBD88B00213B9E /* GitWebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GitWebServices.h; path = Controllers/GitWebServices.h; sourceTree = "<group>"; };
+		C07319F61AFBD88B00213B9E /* GitWebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GitWebServices.m; path = Controllers/GitWebServices.m; sourceTree = "<group>"; };
+		C07319F71AFBD88B00213B9E /* Importer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Importer.h; path = Controllers/Importer.h; sourceTree = "<group>"; };
+		C07319F81AFBD88B00213B9E /* Importer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Importer.m; path = Controllers/Importer.m; sourceTree = "<group>"; };
+		C07319F91AFBD88B00213B9E /* RepoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepoDetailViewController.h; path = Controllers/RepoDetailViewController.h; sourceTree = "<group>"; };
+		C07319FA1AFBD88B00213B9E /* RepoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepoDetailViewController.m; path = Controllers/RepoDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +137,10 @@
 		C07319991AFBD65200213B9E /* GityHub */ = {
 			isa = PBXGroup;
 			children = (
+				C07319C31AFBD7C600213B9E /* Utilities */,
+				C07319C51AFBD7E100213B9E /* Model */,
+				C07319C41AFBD7D600213B9E /* Views */,
+				C07319C61AFBD83200213B9E /* Controllers */,
 				C073199E1AFBD65200213B9E /* AppDelegate.h */,
 				C073199F1AFBD65200213B9E /* AppDelegate.m */,
 				C07319A41AFBD65200213B9E /* ViewController.h */,
@@ -90,7 +148,6 @@
 				C07319A71AFBD65200213B9E /* Main.storyboard */,
 				C07319AA1AFBD65200213B9E /* Images.xcassets */,
 				C07319AC1AFBD65200213B9E /* LaunchScreen.xib */,
-				C07319A11AFBD65200213B9E /* GityHub.xcdatamodeld */,
 				C073199A1AFBD65200213B9E /* Supporting Files */,
 			);
 			path = GityHub;
@@ -120,6 +177,71 @@
 				C07319B81AFBD65200213B9E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C07319C31AFBD7C600213B9E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C07319C71AFBD84C00213B9E /* GTRUtility.h */,
+				C07319C81AFBD84D00213B9E /* GTRUtility.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C07319C41AFBD7D600213B9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C07319EB1AFBD87200213B9E /* EventCollectionViewCell.h */,
+				C07319EC1AFBD87200213B9E /* EventCollectionViewCell.m */,
+				C07319ED1AFBD87200213B9E /* UserCollectionViewCell.h */,
+				C07319EE1AFBD87200213B9E /* UserCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C07319C51AFBD7E100213B9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C07319CA1AFBD86100213B9E /* Event.h */,
+				C07319CB1AFBD86100213B9E /* Event.m */,
+				C07319CC1AFBD86100213B9E /* Event+Persist.h */,
+				C07319CD1AFBD86100213B9E /* Event+Persist.m */,
+				C07319CE1AFBD86100213B9E /* Fork.h */,
+				C07319CF1AFBD86100213B9E /* Fork.m */,
+				C07319D01AFBD86100213B9E /* Fork+Persist.h */,
+				C07319D11AFBD86100213B9E /* Fork+Persist.m */,
+				C07319D21AFBD86100213B9E /* GityHub.xcdatamodeld */,
+				C07319D41AFBD86100213B9E /* NSManagedObject+Helpers.h */,
+				C07319D51AFBD86100213B9E /* NSManagedObject+Helpers.m */,
+				C07319D61AFBD86100213B9E /* Repo.h */,
+				C07319D71AFBD86100213B9E /* Repo.m */,
+				C07319D81AFBD86100213B9E /* Repo+Persist.h */,
+				C07319D91AFBD86100213B9E /* Repo+Persist.m */,
+				C07319DA1AFBD86100213B9E /* RepoObject.h */,
+				C07319DB1AFBD86100213B9E /* RepoObject.m */,
+				C07319DC1AFBD86100213B9E /* Watch.h */,
+				C07319DD1AFBD86100213B9E /* Watch.m */,
+				C07319DE1AFBD86100213B9E /* Watch+Persist.h */,
+				C07319DF1AFBD86100213B9E /* Watch+Persist.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C07319C61AFBD83200213B9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C07319F11AFBD88B00213B9E /* CollectionViewDataFetcher.h */,
+				C07319F21AFBD88B00213B9E /* CollectionViewDataFetcher.m */,
+				C07319F31AFBD88B00213B9E /* EventsCollectionViewController.h */,
+				C07319F41AFBD88B00213B9E /* EventsCollectionViewController.m */,
+				C07319F51AFBD88B00213B9E /* GitWebServices.h */,
+				C07319F61AFBD88B00213B9E /* GitWebServices.m */,
+				C07319F71AFBD88B00213B9E /* Importer.h */,
+				C07319F81AFBD88B00213B9E /* Importer.m */,
+				C07319F91AFBD88B00213B9E /* RepoDetailViewController.h */,
+				C07319FA1AFBD88B00213B9E /* RepoDetailViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +344,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07319E61AFBD86100213B9E /* Repo.m in Sources */,
+				C07319FE1AFBD88B00213B9E /* Importer.m in Sources */,
+				C07319E31AFBD86100213B9E /* Fork+Persist.m in Sources */,
+				C07319E41AFBD86100213B9E /* GityHub.xcdatamodeld in Sources */,
+				C07319C91AFBD84D00213B9E /* GTRUtility.m in Sources */,
+				C07319FB1AFBD88B00213B9E /* CollectionViewDataFetcher.m in Sources */,
+				C07319F01AFBD87200213B9E /* UserCollectionViewCell.m in Sources */,
+				C07319EA1AFBD86100213B9E /* Watch+Persist.m in Sources */,
 				C07319A01AFBD65200213B9E /* AppDelegate.m in Sources */,
-				C07319A31AFBD65200213B9E /* GityHub.xcdatamodeld in Sources */,
+				C07319FF1AFBD88B00213B9E /* RepoDetailViewController.m in Sources */,
+				C07319E21AFBD86100213B9E /* Fork.m in Sources */,
+				C07319FD1AFBD88B00213B9E /* GitWebServices.m in Sources */,
+				C07319E51AFBD86100213B9E /* NSManagedObject+Helpers.m in Sources */,
+				C07319E01AFBD86100213B9E /* Event.m in Sources */,
+				C07319E71AFBD86100213B9E /* Repo+Persist.m in Sources */,
 				C07319A61AFBD65200213B9E /* ViewController.m in Sources */,
 				C073199D1AFBD65200213B9E /* main.m in Sources */,
+				C07319E91AFBD86100213B9E /* Watch.m in Sources */,
+				C07319FC1AFBD88B00213B9E /* EventsCollectionViewController.m in Sources */,
+				C07319EF1AFBD87200213B9E /* EventCollectionViewCell.m in Sources */,
+				C07319E81AFBD86100213B9E /* RepoObject.m in Sources */,
+				C07319E11AFBD86100213B9E /* Event+Persist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,13 +574,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C07319A11AFBD65200213B9E /* GityHub.xcdatamodeld */ = {
+		C07319D21AFBD86100213B9E /* GityHub.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C07319A21AFBD65200213B9E /* GityHub.xcdatamodel */,
+				C07319D31AFBD86100213B9E /* Git_TaskRabbit.xcdatamodel */,
 			);
-			currentVersion = C07319A21AFBD65200213B9E /* GityHub.xcdatamodel */;
-			path = GityHub.xcdatamodeld;
+			currentVersion = C07319D31AFBD86100213B9E /* Git_TaskRabbit.xcdatamodel */;
+			name = GityHub.xcdatamodeld;
+			path = Models/GityHub.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
