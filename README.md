@@ -17,7 +17,7 @@ Compilor switches are in place to turn on or off the offending web call.
 # Setup
 Download the project and run, it will not crash.  The 'RepoDetailViewController' doesn't go out and makes a web call to obtain the details for the repo.  To make the app crash, in the 'RepoDetailViewController' set
 
-'#define TEST_TURN_OFF_WEB_CALL_FOR_REPO_USE_DUMMY 1'
+'#define TEST_TURN_OFF_WEB_CALL_FOR_REPO_USE_DUMMY 0'
 
 
 This is the case for both libraries, which you can set which library to use in the 'GTHCommonFile.h' file

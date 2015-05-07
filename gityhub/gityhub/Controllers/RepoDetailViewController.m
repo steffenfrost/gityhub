@@ -21,7 +21,9 @@
 
 #define CoreDataWay 0
 #define TEST_WITH_EVENTS_FROM_ANOTHER_REPO 0
-#define TEST_TURN_OFF_WEB_CALL_FOR_REPO_USE_DUMMY 0
+
+// Turn this to '0' to make it crash
+#define TEST_TURN_OFF_WEB_CALL_FOR_REPO_USE_DUMMY 1
 
 #if USE_UICollectionView_PLUS_NSFetchedResultsController
 @interface RepoDetailViewController () <CollectionViewDataFetcherDelegateV2>
