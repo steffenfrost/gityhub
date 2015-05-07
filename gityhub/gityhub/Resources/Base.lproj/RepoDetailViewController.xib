@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RepoDetailViewController">
+            <connections>
+                <outlet property="codingLanguageLabel" destination="2IZ-Y2-Utd" id="3pw-2Y-J5J"/>
+                <outlet property="collectionView" destination="jh0-BQ-Fvc" id="LOi-2U-kmv"/>
+                <outlet property="createdAtLabel" destination="Sjh-Na-RRd" id="zMc-QO-tNc"/>
+                <outlet property="numberOfActionsLabel" destination="30c-B8-Mey" id="i5g-0Y-HMj"/>
+                <outlet property="repoNameLabel" destination="KBm-VO-e1h" id="3yl-tr-6G4"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rtj-Mf-RDL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jh0-BQ-Fvc">
+                    <rect key="frame" x="0.0" y="182" width="320" height="418"/>
+                    <color key="backgroundColor" red="0.9405439726" green="0.93784900419999995" blue="0.94323894100000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="250" constant="413" id="BN8-YK-cM4"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="15" minimumInteritemSpacing="0.0" id="6a6-Dh-jHC">
+                        <size key="itemSize" width="250" height="250"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of repo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBm-VO-e1h">
+                    <rect key="frame" x="8" y="75" width="304" height="31"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="26"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="coding language" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IZ-Y2-Utd">
+                    <rect key="frame" x="8" y="128" width="191" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="191" id="BmB-Pc-33c"/>
+                        <constraint firstAttribute="height" constant="21" id="hbK-Vp-GfR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="repo created date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjh-Na-RRd">
+                    <rect key="frame" x="8" y="103" width="304" height="17"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# of actions" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30c-B8-Mey">
+                    <rect key="frame" x="212" y="128" width="100" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="30c-B8-Mey" firstAttribute="leading" secondItem="2IZ-Y2-Utd" secondAttribute="trailing" constant="13" id="02U-3C-z5v"/>
+                <constraint firstItem="KBm-VO-e1h" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="3TI-Mc-tAS"/>
+                <constraint firstItem="jh0-BQ-Fvc" firstAttribute="top" secondItem="2IZ-Y2-Utd" secondAttribute="bottom" constant="33" id="3b7-hV-zuC"/>
+                <constraint firstItem="30c-B8-Mey" firstAttribute="top" secondItem="Sjh-Na-RRd" secondAttribute="bottom" constant="8" id="8cO-4g-Lcx"/>
+                <constraint firstAttribute="bottom" secondItem="jh0-BQ-Fvc" secondAttribute="bottom" id="BEK-PK-e1V"/>
+                <constraint firstItem="jh0-BQ-Fvc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GUp-JS-fKS"/>
+                <constraint firstItem="2IZ-Y2-Utd" firstAttribute="top" secondItem="KBm-VO-e1h" secondAttribute="bottom" constant="22" id="LTc-U7-yTk"/>
+                <constraint firstAttribute="trailing" secondItem="jh0-BQ-Fvc" secondAttribute="trailing" id="OOp-QA-X1x"/>
+                <constraint firstAttribute="trailing" secondItem="Sjh-Na-RRd" secondAttribute="trailing" constant="8" id="XV0-pO-Pu1"/>
+                <constraint firstItem="2IZ-Y2-Utd" firstAttribute="top" secondItem="Sjh-Na-RRd" secondAttribute="bottom" constant="8" id="dm3-jE-Sgd"/>
+                <constraint firstItem="Sjh-Na-RRd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="jtj-Vh-H0E"/>
+                <constraint firstItem="2IZ-Y2-Utd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="kZk-vG-Is3"/>
+                <constraint firstItem="KBm-VO-e1h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="75" id="mRR-0c-1X8"/>
+                <constraint firstAttribute="trailing" secondItem="KBm-VO-e1h" secondAttribute="trailing" constant="8" id="wBp-Tx-wzv"/>
+                <constraint firstAttribute="trailing" secondItem="30c-B8-Mey" secondAttribute="trailing" constant="8" id="xKQ-gy-txf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="188" y="410"/>
+        </view>
+    </objects>
+</document>
