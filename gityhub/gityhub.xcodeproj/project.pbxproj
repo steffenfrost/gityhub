@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0B47D631AEAC50200159342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47D621AEAC50200159342 /* main.m */; };
-		C0B47D661AEAC50200159342 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47D651AEAC50200159342 /* AppDelegate.m */; };
-		C0B47D691AEAC50200159342 /* gityhub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0B47D671AEAC50200159342 /* gityhub.xcdatamodeld */; };
-		C0B47D6C1AEAC50200159342 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47D6B1AEAC50200159342 /* ViewController.m */; };
-		C0B47D6F1AEAC50200159342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B47D6D1AEAC50200159342 /* Main.storyboard */; };
-		C0B47D711AEAC50200159342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B47D701AEAC50200159342 /* Images.xcassets */; };
-		C0B47D741AEAC50200159342 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0B47D721AEAC50200159342 /* LaunchScreen.xib */; };
-		C0B47D801AEAC50200159342 /* gityhubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B47D7F1AEAC50200159342 /* gityhubTests.m */; };
+		C073199D1AFBD65200213B9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C073199C1AFBD65200213B9E /* main.m */; };
+		C07319A01AFBD65200213B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C073199F1AFBD65200213B9E /* AppDelegate.m */; };
+		C07319A31AFBD65200213B9E /* GityHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C07319A11AFBD65200213B9E /* GityHub.xcdatamodeld */; };
+		C07319A61AFBD65200213B9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319A51AFBD65200213B9E /* ViewController.m */; };
+		C07319A91AFBD65200213B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07319A71AFBD65200213B9E /* Main.storyboard */; };
+		C07319AB1AFBD65200213B9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07319AA1AFBD65200213B9E /* Images.xcassets */; };
+		C07319AE1AFBD65200213B9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07319AC1AFBD65200213B9E /* LaunchScreen.xib */; };
+		C07319BA1AFBD65200213B9E /* GityHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C07319B91AFBD65200213B9E /* GityHubTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C0B47D7A1AEAC50200159342 /* PBXContainerItemProxy */ = {
+		C07319B41AFBD65200213B9E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C0B47D551AEAC50200159342 /* Project object */;
+			containerPortal = C073198F1AFBD65200213B9E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C0B47D5C1AEAC50200159342;
-			remoteInfo = gityhub;
+			remoteGlobalIDString = C07319961AFBD65200213B9E;
+			remoteInfo = GityHub;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C0B47D5D1AEAC50200159342 /* gityhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gityhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B47D611AEAC50200159342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0B47D621AEAC50200159342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0B47D641AEAC50200159342 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C0B47D651AEAC50200159342 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0B47D681AEAC50200159342 /* gityhub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gityhub.xcdatamodel; sourceTree = "<group>"; };
-		C0B47D6A1AEAC50200159342 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0B47D6B1AEAC50200159342 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C0B47D6E1AEAC50200159342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0B47D701AEAC50200159342 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C0B47D731AEAC50200159342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C0B47D791AEAC50200159342 /* gityhubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gityhubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B47D7E1AEAC50200159342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0B47D7F1AEAC50200159342 /* gityhubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gityhubTests.m; sourceTree = "<group>"; };
+		C07319971AFBD65200213B9E /* GityHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GityHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C073199B1AFBD65200213B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C073199C1AFBD65200213B9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C073199E1AFBD65200213B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C073199F1AFBD65200213B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C07319A21AFBD65200213B9E /* GityHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GityHub.xcdatamodel; sourceTree = "<group>"; };
+		C07319A41AFBD65200213B9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C07319A51AFBD65200213B9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C07319A81AFBD65200213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07319AA1AFBD65200213B9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C07319AD1AFBD65200213B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C07319B31AFBD65200213B9E /* GityHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GityHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07319B81AFBD65200213B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07319B91AFBD65200213B9E /* GityHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GityHubTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C0B47D5A1AEAC50200159342 /* Frameworks */ = {
+		C07319941AFBD65200213B9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B47D761AEAC50200159342 /* Frameworks */ = {
+		C07319B01AFBD65200213B9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,62 +62,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C0B47D541AEAC50200159342 = {
+		C073198E1AFBD65200213B9E = {
 			isa = PBXGroup;
 			children = (
-				C0B47D5F1AEAC50200159342 /* gityhub */,
-				C0B47D7C1AEAC50200159342 /* gityhubTests */,
-				C0B47D5E1AEAC50200159342 /* Products */,
+				C07319991AFBD65200213B9E /* GityHub */,
+				C07319B61AFBD65200213B9E /* GityHubTests */,
+				C07319981AFBD65200213B9E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C0B47D5E1AEAC50200159342 /* Products */ = {
+		C07319981AFBD65200213B9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0B47D5D1AEAC50200159342 /* gityhub.app */,
-				C0B47D791AEAC50200159342 /* gityhubTests.xctest */,
+				C07319971AFBD65200213B9E /* GityHub.app */,
+				C07319B31AFBD65200213B9E /* GityHubTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0B47D5F1AEAC50200159342 /* gityhub */ = {
+		C07319991AFBD65200213B9E /* GityHub */ = {
 			isa = PBXGroup;
 			children = (
-				C0B47D641AEAC50200159342 /* AppDelegate.h */,
-				C0B47D651AEAC50200159342 /* AppDelegate.m */,
-				C0B47D6A1AEAC50200159342 /* ViewController.h */,
-				C0B47D6B1AEAC50200159342 /* ViewController.m */,
-				C0B47D6D1AEAC50200159342 /* Main.storyboard */,
-				C0B47D701AEAC50200159342 /* Images.xcassets */,
-				C0B47D721AEAC50200159342 /* LaunchScreen.xib */,
-				C0B47D671AEAC50200159342 /* gityhub.xcdatamodeld */,
-				C0B47D601AEAC50200159342 /* Supporting Files */,
+				C073199E1AFBD65200213B9E /* AppDelegate.h */,
+				C073199F1AFBD65200213B9E /* AppDelegate.m */,
+				C07319A41AFBD65200213B9E /* ViewController.h */,
+				C07319A51AFBD65200213B9E /* ViewController.m */,
+				C07319A71AFBD65200213B9E /* Main.storyboard */,
+				C07319AA1AFBD65200213B9E /* Images.xcassets */,
+				C07319AC1AFBD65200213B9E /* LaunchScreen.xib */,
+				C07319A11AFBD65200213B9E /* GityHub.xcdatamodeld */,
+				C073199A1AFBD65200213B9E /* Supporting Files */,
 			);
-			path = gityhub;
+			path = GityHub;
 			sourceTree = "<group>";
 		};
-		C0B47D601AEAC50200159342 /* Supporting Files */ = {
+		C073199A1AFBD65200213B9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0B47D611AEAC50200159342 /* Info.plist */,
-				C0B47D621AEAC50200159342 /* main.m */,
+				C073199B1AFBD65200213B9E /* Info.plist */,
+				C073199C1AFBD65200213B9E /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0B47D7C1AEAC50200159342 /* gityhubTests */ = {
+		C07319B61AFBD65200213B9E /* GityHubTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0B47D7F1AEAC50200159342 /* gityhubTests.m */,
-				C0B47D7D1AEAC50200159342 /* Supporting Files */,
+				C07319B91AFBD65200213B9E /* GityHubTests.m */,
+				C07319B71AFBD65200213B9E /* Supporting Files */,
 			);
-			path = gityhubTests;
+			path = GityHubTests;
 			sourceTree = "<group>";
 		};
-		C0B47D7D1AEAC50200159342 /* Supporting Files */ = {
+		C07319B71AFBD65200213B9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0B47D7E1AEAC50200159342 /* Info.plist */,
+				C07319B81AFBD65200213B9E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,60 +125,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0B47D5C1AEAC50200159342 /* gityhub */ = {
+		C07319961AFBD65200213B9E /* GityHub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0B47D831AEAC50200159342 /* Build configuration list for PBXNativeTarget "gityhub" */;
+			buildConfigurationList = C07319BD1AFBD65200213B9E /* Build configuration list for PBXNativeTarget "GityHub" */;
 			buildPhases = (
-				C0B47D591AEAC50200159342 /* Sources */,
-				C0B47D5A1AEAC50200159342 /* Frameworks */,
-				C0B47D5B1AEAC50200159342 /* Resources */,
+				C07319931AFBD65200213B9E /* Sources */,
+				C07319941AFBD65200213B9E /* Frameworks */,
+				C07319951AFBD65200213B9E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = gityhub;
-			productName = gityhub;
-			productReference = C0B47D5D1AEAC50200159342 /* gityhub.app */;
+			name = GityHub;
+			productName = GityHub;
+			productReference = C07319971AFBD65200213B9E /* GityHub.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0B47D781AEAC50200159342 /* gityhubTests */ = {
+		C07319B21AFBD65200213B9E /* GityHubTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0B47D861AEAC50200159342 /* Build configuration list for PBXNativeTarget "gityhubTests" */;
+			buildConfigurationList = C07319C01AFBD65200213B9E /* Build configuration list for PBXNativeTarget "GityHubTests" */;
 			buildPhases = (
-				C0B47D751AEAC50200159342 /* Sources */,
-				C0B47D761AEAC50200159342 /* Frameworks */,
-				C0B47D771AEAC50200159342 /* Resources */,
+				C07319AF1AFBD65200213B9E /* Sources */,
+				C07319B01AFBD65200213B9E /* Frameworks */,
+				C07319B11AFBD65200213B9E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0B47D7B1AEAC50200159342 /* PBXTargetDependency */,
+				C07319B51AFBD65200213B9E /* PBXTargetDependency */,
 			);
-			name = gityhubTests;
-			productName = gityhubTests;
-			productReference = C0B47D791AEAC50200159342 /* gityhubTests.xctest */;
+			name = GityHubTests;
+			productName = GityHubTests;
+			productReference = C07319B31AFBD65200213B9E /* GityHubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C0B47D551AEAC50200159342 /* Project object */ = {
+		C073198F1AFBD65200213B9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Carticipate, Inc.";
+				ORGANIZATIONNAME = "nearIM, Inc.";
 				TargetAttributes = {
-					C0B47D5C1AEAC50200159342 = {
-						CreatedOnToolsVersion = 6.3;
+					C07319961AFBD65200213B9E = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
-					C0B47D781AEAC50200159342 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = C0B47D5C1AEAC50200159342;
+					C07319B21AFBD65200213B9E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C07319961AFBD65200213B9E;
 					};
 				};
 			};
-			buildConfigurationList = C0B47D581AEAC50200159342 /* Build configuration list for PBXProject "gityhub" */;
+			buildConfigurationList = C07319921AFBD65200213B9E /* Build configuration list for PBXProject "GityHub" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,29 +186,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C0B47D541AEAC50200159342;
-			productRefGroup = C0B47D5E1AEAC50200159342 /* Products */;
+			mainGroup = C073198E1AFBD65200213B9E;
+			productRefGroup = C07319981AFBD65200213B9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0B47D5C1AEAC50200159342 /* gityhub */,
-				C0B47D781AEAC50200159342 /* gityhubTests */,
+				C07319961AFBD65200213B9E /* GityHub */,
+				C07319B21AFBD65200213B9E /* GityHubTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C0B47D5B1AEAC50200159342 /* Resources */ = {
+		C07319951AFBD65200213B9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B47D6F1AEAC50200159342 /* Main.storyboard in Resources */,
-				C0B47D741AEAC50200159342 /* LaunchScreen.xib in Resources */,
-				C0B47D711AEAC50200159342 /* Images.xcassets in Resources */,
+				C07319A91AFBD65200213B9E /* Main.storyboard in Resources */,
+				C07319AE1AFBD65200213B9E /* LaunchScreen.xib in Resources */,
+				C07319AB1AFBD65200213B9E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B47D771AEAC50200159342 /* Resources */ = {
+		C07319B11AFBD65200213B9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,48 +218,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0B47D591AEAC50200159342 /* Sources */ = {
+		C07319931AFBD65200213B9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B47D691AEAC50200159342 /* gityhub.xcdatamodeld in Sources */,
-				C0B47D661AEAC50200159342 /* AppDelegate.m in Sources */,
-				C0B47D6C1AEAC50200159342 /* ViewController.m in Sources */,
-				C0B47D631AEAC50200159342 /* main.m in Sources */,
+				C07319A01AFBD65200213B9E /* AppDelegate.m in Sources */,
+				C07319A31AFBD65200213B9E /* GityHub.xcdatamodeld in Sources */,
+				C07319A61AFBD65200213B9E /* ViewController.m in Sources */,
+				C073199D1AFBD65200213B9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B47D751AEAC50200159342 /* Sources */ = {
+		C07319AF1AFBD65200213B9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B47D801AEAC50200159342 /* gityhubTests.m in Sources */,
+				C07319BA1AFBD65200213B9E /* GityHubTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C0B47D7B1AEAC50200159342 /* PBXTargetDependency */ = {
+		C07319B51AFBD65200213B9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0B47D5C1AEAC50200159342 /* gityhub */;
-			targetProxy = C0B47D7A1AEAC50200159342 /* PBXContainerItemProxy */;
+			target = C07319961AFBD65200213B9E /* GityHub */;
+			targetProxy = C07319B41AFBD65200213B9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C0B47D6D1AEAC50200159342 /* Main.storyboard */ = {
+		C07319A71AFBD65200213B9E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0B47D6E1AEAC50200159342 /* Base */,
+				C07319A81AFBD65200213B9E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C0B47D721AEAC50200159342 /* LaunchScreen.xib */ = {
+		C07319AC1AFBD65200213B9E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C0B47D731AEAC50200159342 /* Base */,
+				C07319AD1AFBD65200213B9E /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C0B47D811AEAC50200159342 /* Debug */ = {
+		C07319BB1AFBD65200213B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,7 +311,7 @@
 			};
 			name = Debug;
 		};
-		C0B47D821AEAC50200159342 /* Release */ = {
+		C07319BC1AFBD65200213B9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,27 +349,27 @@
 			};
 			name = Release;
 		};
-		C0B47D841AEAC50200159342 /* Debug */ = {
+		C07319BE1AFBD65200213B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = gityhub/Info.plist;
+				INFOPLIST_FILE = GityHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C0B47D851AEAC50200159342 /* Release */ = {
+		C07319BF1AFBD65200213B9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = gityhub/Info.plist;
+				INFOPLIST_FILE = GityHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		C0B47D871AEAC50200159342 /* Debug */ = {
+		C07319C11AFBD65200213B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,14 +381,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = gityhubTests/Info.plist;
+				INFOPLIST_FILE = GityHubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gityhub.app/gityhub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GityHub.app/GityHub";
 			};
 			name = Debug;
 		};
-		C0B47D881AEAC50200159342 /* Release */ = {
+		C07319C21AFBD65200213B9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -396,55 +396,55 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = gityhubTests/Info.plist;
+				INFOPLIST_FILE = GityHubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gityhub.app/gityhub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GityHub.app/GityHub";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0B47D581AEAC50200159342 /* Build configuration list for PBXProject "gityhub" */ = {
+		C07319921AFBD65200213B9E /* Build configuration list for PBXProject "GityHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B47D811AEAC50200159342 /* Debug */,
-				C0B47D821AEAC50200159342 /* Release */,
+				C07319BB1AFBD65200213B9E /* Debug */,
+				C07319BC1AFBD65200213B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0B47D831AEAC50200159342 /* Build configuration list for PBXNativeTarget "gityhub" */ = {
+		C07319BD1AFBD65200213B9E /* Build configuration list for PBXNativeTarget "GityHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B47D841AEAC50200159342 /* Debug */,
-				C0B47D851AEAC50200159342 /* Release */,
+				C07319BE1AFBD65200213B9E /* Debug */,
+				C07319BF1AFBD65200213B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C0B47D861AEAC50200159342 /* Build configuration list for PBXNativeTarget "gityhubTests" */ = {
+		C07319C01AFBD65200213B9E /* Build configuration list for PBXNativeTarget "GityHubTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B47D871AEAC50200159342 /* Debug */,
-				C0B47D881AEAC50200159342 /* Release */,
+				C07319C11AFBD65200213B9E /* Debug */,
+				C07319C21AFBD65200213B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C0B47D671AEAC50200159342 /* gityhub.xcdatamodeld */ = {
+		C07319A11AFBD65200213B9E /* GityHub.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C0B47D681AEAC50200159342 /* gityhub.xcdatamodel */,
+				C07319A21AFBD65200213B9E /* GityHub.xcdatamodel */,
 			);
-			currentVersion = C0B47D681AEAC50200159342 /* gityhub.xcdatamodel */;
-			path = gityhub.xcdatamodeld;
+			currentVersion = C07319A21AFBD65200213B9E /* GityHub.xcdatamodel */;
+			path = GityHub.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = C0B47D551AEAC50200159342 /* Project object */;
+	rootObject = C073198F1AFBD65200213B9E /* Project object */;
 }

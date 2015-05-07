@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  gityhub
+//  GityHub
 //
-//  Created by Steven Frost-Ruebling on 4/24/15.
-//  Copyright (c) 2015 Carticipate, Inc. All rights reserved.
+//  Created by Steven Frost-Ruebling on 5/7/15.
+//  Copyright (c) 2015 nearIM, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
