@@ -1,11 +1,9 @@
 //
 //  NSManagedObject+Helpers.m
 //  nearIM, Inc.
-
 //
 //  Created by Steven Frost-Ruebling on 4/21/15.
 //  Copyright (c) 2015 nearIM All rights reserved.
-
 //
 
 #import "NSManagedObject+Helpers.h"
