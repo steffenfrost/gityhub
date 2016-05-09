@@ -241,7 +241,7 @@
         }]];
     }
     
-    __unsafe_unretained typeof(self) weakSelf = self;
+    __weak typeof(self) weakSelf = self;
     [self.collectionView performBatchUpdates:^{
         NSLog(@"Performing Batch Updates.");
         NSLog(@"Section Changes: %@", weakSelf.sectionChanges);
